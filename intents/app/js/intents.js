@@ -37,7 +37,7 @@ var intents = {
 				console.log(JSON.stringify(message));
 				*/
 				var dataType = message["dataType"];
-				console.log("IN intents.onmessage() dataType='" + dataType + "'");
+				//console.log("IN intents.onmessage() dataType='" + dataType + "'");
 
 				switch(dataType) {
 
